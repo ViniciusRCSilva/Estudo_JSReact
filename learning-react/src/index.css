@@ -1,0 +1,66 @@
+/* CSS Initial React Template with some implementations */
+body {
+  /*--- Implementation ---*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  /*---------------------*/
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Used in App3  */
+div .divInput {
+  padding: 5px;
+  border: none;
+  background-color: darkcyan;
+  opacity: 0.6;
+  color: white;
+}
+
+/* Used in App2  */
+div .containerUserList {
+  padding-top: 15px;
+  width: 100%;
+  height: auto;
+  color: white;
+  border: 1px solid darkblue;
+  border-radius: 5px;
+  background-color: darkcyan;
+  opacity: 0.6;
+
+}
+
+/* Used in App2  */
+div .ide {
+  padding-left: 20px;
+}
+
+/*  Used in apps that have a button */
+button {
+  transition: .2s;
+  padding: 4.5px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: darkred;
+}
+
+button:hover {
+  transform: scale3d(1.05, 1.05, 1.05);
+}
+
+button:active {
+  transform: scale3d(1.0, 1.0, 1.0);
+}
